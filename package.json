@@ -1,0 +1,19 @@
+{
+  "name": "learning_kafka",
+  "version": "1.0.0",
+  "description": "a app for learning kafka",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "nodemon server.js"
+  },
+  "author": "Tanmay",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "kafkajs": "^2.2.4"
+  },
+  "devDependencies": {
+  }
+}
